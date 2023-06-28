@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WikiGogh | Van Gogh</title>
+        <link rel="stylesheet" href="../estilos/index.css">
+    </head>
+    <body>
+        <header class="head1">
+            <img class="logo" src="../imagens/wikilogo.png" alt="Logo da Wiki">
+            <p>WikiGogh</p>
+        </header>
+        <nav>
+            <ul class="drops">
+                <li class="prin"><a href="../index.html">Home</a></li>
+                <li class="prin"><a href="../paginas/bibliografia.html">Bibliografia</a></li>
+                <li class="prin"><ul class="dropdown"><a href="../paginas/obras.html">Obras</a>
+                        <li class="link"><a href="../paginas/obras.html?cor=amarelo">Amarelo</a></li>
+                        <li class="link"><a href="../paginas/obras.html?cor=preto">Preto</a></li>
+                        <li class="link"><a href="../paginas/obras.html?cor=azul">Azul</a></li>
+                    </ul>
+                </li>
+                <li><a href="../paginas/contato.html" class="now">Contato</a></li>
+              </ul>
+        </nav>
+        <br><br>
+        <main class="card">
+            <header>
+                <h2>Formulário para contato</h2>
+            </header>
+            <form id="cadastroForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="celular">Celular:</label>
+                <input type="tel" id="celular" name="celular" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+                <p>
+                    <button type="button" onclick="limparFormulario()">Limpar</button>
+                    <button type="submit">Cadastrar</button>
+                </p>
+            </form>
+            <section id="cadastroResultado"></section>
+            
+            <script src="../script/contato.js" ></script>
+        </main>
+        <footer class="foot1">Copyright₢. Todos os direitos reservados</footer>
+    </body>
+</html>

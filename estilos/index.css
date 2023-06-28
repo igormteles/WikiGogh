@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body {
+  height: 100vh;
+  background-color: lightblue;
+}
+nav{
+  background-color: khaki;
+}
+ul{
+  align-items: center;
+  list-style: none;
+  color: grey;
+  font-style: oblique;
+}
+.head1 {
+  background-color: yellow;
+  text-align: center;
+  height: 160px;
+  padding: 30px;
+}
+.logo {
+  height: 90%;
+}
+.card {
+  background-color: lightskyblue;
+  padding: 20px;
+  margin: 10px 65px;
+}
+article{
+  text-align: center;
+}
+.drops{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: flex-start;
+}
+.prin{
+  margin-right: 6vh;
+}
+.link{
+  display: none;
+}
+.dropdown:hover .link{
+  display: block;
+}
+.foot1 {
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  padding: 24px;
+}
+#gif-container {
+  margin-top: 20px;
+}
+#gif-container img {
+  display: none;
+}
+.now{
+  background-color: yellow;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  background-color: yellow;
+}
+.foot2{
+  font-size: xx-small;
+  padding: 20px;
+  text-align: right;
+}
+p{
+  text-align: justify center;
+}
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: khaki;
+}
+.foot2 a{
+  text-decoration: none;
+  color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+button{
+  border: none;
+  background-color: khaki;
+  width: auto;
+}
+
+
